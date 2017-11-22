@@ -1,0 +1,33 @@
+html,body{
+	height:auto;
+	overflow-y: hidden;
+}
+#navbar{
+	background-color: #C2DFFF	;
+    border-color: #E7E7E7;
+}
+#btn1{
+	float:right;
+	padding: 5px;
+}
+#bttn{
+	background-color: #C2DFFF;
+}
+.form-group{
+	margin-top: 20px;
+}
+.col-xs-7{
+	margin-bottom: 5px;
+	align-items: center;
+}
+.btn{
+	margin-top: 10px;
+}
+#grad{
+	background: linear-gradient(90deg,#F4FFFF,#FFFFF5,#C2DFFF);
+}
+.btn-primary {
+    padding: 5px;
+	padding-bottom: 10px;
+}
+

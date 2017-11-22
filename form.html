@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Form</title>
+  <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body id="grad">
+  <div class="container-fluid">
+            <div class="row">
+                <nav id="navbar" class="navbar navbar-defualt" style="margin-bottom: 0;">
+                    <a class="navbar-brand" href="basic.html">Hostel Management System</a>
+                    <div class="btn-group float-right" id="btn1">
+                    <button type="button" class="btn btn-primary" onclick="location.href ='basic.html'">Home</button>
+                        <button type="button" class="btn btn-primary" onclick="location.href ='room_info.html'">Room Info</button>
+                        <button type="button" class="btn btn-primary" onclick="location.href ='student_info.html'">Student Info</button>
+                    </div>
+                </nav>
+            </div>
+  <div class="form-group row" >
+    <form action="/action_page.php">
+  <div class="col-xs-12">
+    <label>First Name</label>
+    <input class="form-control" type="text" placeholder="Enter First Name" required>
+  </div>
+  <div class="col-xs-12">
+    <label>Last Name</label>
+    <input class="form-control" type="text" placeholder="Enter Last Name" required>
+  </div>
+  <div class="col-xs-12">
+    <label>Address</label>
+    <input class="form-control" type="text" placeholder="Enter Address" required>
+    </div>
+    <div class="col-xs-12">
+    <label>Email</label>
+    <input class="form-control" type="text" placeholder="Enter email" required>
+    </div>
+    <div class="col-xs-12">
+    <label>Sex</label>
+    <div class="radio">
+    <label><input type="radio" class="rad" name="sex" required>Male</label>
+    </div>
+    <div class="radio">
+    <label><input type="radio" class="rad" name="sex">Female</label>
+    </div>
+    </div>
+    <div class="col-xs-12">
+    <label>Room No.</label>
+    <input class="form-control" id="ex2" type="text" placeholder="Room No." required>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+
+</div>
+</div>
+
+</body>
+</html>
